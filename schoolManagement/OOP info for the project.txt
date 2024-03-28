@@ -1,0 +1,31 @@
+Class -
+School
+Student,
+HelperUtil
+MarksCalculatorInterfaceImpl
+PerformanceEvaluatorMain
+SchoolRatingImplementer
+
+Object
+Student sagarmathaStudent = new Student(.....)
+SchoolRatingImplementer sr = new SchoolRatingImplementer();
+MarksCalculatorInterfaceImpl mr = new MarksCalculatorInterfaceImpl();
+
+Inheritance
+School-Student
+
+Polymorphism
+Compile Time polymorhpism a.k.a Method overloading - HelperUtil.returnSchoolName
+Run Time Polymorphism a.k.a Method overriding - Example of Inheritance
+
+Abstraction
+class- SchoolRating implementer of Abstract class - SchoolRatingImplementer
+
+Interface
+MarksCalculatorInterface the implmenter of Interface - MarksCalculatorInterfaceImpl
+
+Encapsulation
+Use case of getter and setter methods
+getter - sagarmathaStudent.getName() 
+setter - defaultStudent.setName("Eliza");
+
